@@ -1100,19 +1100,19 @@ function takeScreenshot() {
     x = 0;
     y = 0;
     cropPercentageX = -0.0147;
-    cropPercentageY = 0.06;
-    cropPercentageRight = 0.23;
+    cropPercentageY = 0.15;
+    cropPercentageRight = 0.46;
     captureWidth = 930;
-    captureHeight = 723;
+    captureHeight = 573;
   } else {
     // Values for desktop
     x = 0;
     y = 0;
     cropPercentageX = -0.0087;
-    cropPercentageY = 0.05;
-    cropPercentageRight = 0.385;
+    cropPercentageY = 0.14;
+    cropPercentageRight = 0.45;
     captureWidth = 1200;
-    captureHeight = 723;
+    captureHeight = 573;
   }
 
 
@@ -1159,7 +1159,7 @@ ctx.fillRect(0, 0, canvas.width, canvas.height);
 
 ctx.font = '12px Arial'; // Adjust the font size for the other text
 ctx.fillStyle = 'grey'; // Adjust the color for the other text
-ctx.fillText('datamb.football', 629, 676);
+ctx.fillText('datamb.football', 399, 476);
 
 
       // Convert the canvas to a PNG image
@@ -2226,7 +2226,7 @@ const similarPlayersContainer = document.createElement("div");
 similarPlayersContainer.id = "similarPlayersContainer";
 similarPlayersContainer.style.position = "absolute";
 similarPlayersContainer.style.top = "600px";
-similarPlayersContainer.style.left = "100px";
+similarPlayersContainer.style.left = "80px";
 document.body.appendChild(similarPlayersContainer);
 
 let colorIndex = 0; // Initialize color index
